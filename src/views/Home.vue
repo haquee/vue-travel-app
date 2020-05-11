@@ -41,4 +41,12 @@ export default {
         display: flex;
         justify-content: space-between;
     }
+    a {
+        color: lightseagreen;
+        text-decoratin: none;
+    }
+    a:hover,
+    a:visited {
+        text-decoration: underline;
+    }
 </style>
